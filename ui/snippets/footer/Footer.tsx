@@ -40,19 +40,19 @@ const Footer = () => {
     {
       icon: editIcon,
       iconSize: '16px',
-      text: 'Submit an issue',
+      text: 'Audit',
       url: issueUrl,
     },
     {
       icon: cannyIcon,
       iconSize: '20px',
-      text: 'Feature request',
+      text: 'KYC',
       url: issueUrl,
     },
     {
       icon: gitIcon,
       iconSize: '18px',
-      text: 'Contribute',
+      text: 'Whitepaper',
       url: '#',
     },
     {
