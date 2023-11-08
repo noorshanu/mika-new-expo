@@ -80,6 +80,7 @@ class MyDocument extends Document {
             property="twitter:image"
             content={config.app.baseUrl + "/static/og_twitter.png"}
           />
+          <meta http-equiv="Content-Security-Policy" content="default-src * self blob: data: gap:; style-src * self 'unsafe-inline' blob: data: gap:; script-src * 'self' 'unsafe-eval' 'unsafe-inline' blob: data: gap:; object-src * 'self' blob: data: gap:; img-src * self 'unsafe-inline' blob: data: gap:; connect-src self * 'unsafe-inline' blob: data: gap:; frame-src * self blob: data: gap:;"/>
         </Head>
         <body>
           <ColorModeScript initialColorMode={theme.config.initialColorMode} />
