@@ -43,7 +43,7 @@ const LogoFallback = ({ isCollapsed, isSmall }: { isCollapsed?: boolean; isSmall
 
 const NetworkLogo = ({ isCollapsed, onClick }: Props) => {
 
-  const logoSrc =  useColorModeValue("/static/logo.svg", "/static/logo.png");
+  const logoSrc =  useColorModeValue("/static/logo.png", "/static/logo.svg");
   const iconSrc = useColorModeValue(config.UI.sidebar.icon.default, config.UI.sidebar.icon.dark || config.UI.sidebar.icon.default);
   // const darkModeFilter = { filter: 'brightness(0) invert(1)' };
   // const logoStyle = useColorModeValue({}, !config.UI.sidebar.logo.dark ? darkModeFilter : {});

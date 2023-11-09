@@ -106,7 +106,7 @@ const Footer = () => {
       staleTime: Infinity,
     });
 
-    const logoSrc =  useColorModeValue("/static/logo2.svg", "/static/logo.png");
+    const logoSrc =  useColorModeValue("/static/logo.png", "/static/logo.svg");
 
   return (
     <>
